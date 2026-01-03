@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     
     # CORS
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000"]
+    ALLOWED_ORIGINS: List[str] = ["https://serveratech.biz.id"]
     
     # Email
     SMTP_HOST: Optional[str] = None
