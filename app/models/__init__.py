@@ -1,3 +1,4 @@
+from app.core.database import Base
 from .user import User
 from .customer import Customer, KYCData
 from .service import Service
@@ -10,6 +11,7 @@ from .ticket import Ticket, TicketReply
 from .audit import ActivityLog
 
 __all__ = [
+    "Base",
     "User",
     "Customer", 
     "KYCData",
